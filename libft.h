@@ -6,7 +6,7 @@
 /*   By: yaattaou <yaattaou@student.1337.ma>       #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/11/03 05:33:07 by yaattaou         #+#    #+#              */
-/*   Updated: 2026/11/09 21:46:31 by yaattaou        ###   ########.fr        */
+/*   Updated: 2026/11/10 03:36:38 by yaattaou        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len);
 char	*ft_strjoin(char const *s1, char const *s2);
 char	*ft_strtrim(char const *s1, char const *set);
 char	**ft_split(char const *s, char c);
-// ft_strmapi
+char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 //ft_striteri
 void	*ft_calloc(size_t n, size_t size);
 void	ft_bzero(void *s, size_t n);

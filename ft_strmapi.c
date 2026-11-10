@@ -1,18 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                       :::      ::::::::    */
-/*   main.c                                            :+:      :+:    :+:    */
+/*   ft_strmapi.c                                      :+:      :+:    :+:    */
 /*                                                   +:+ +:+         +:+      */
 /*   By: yaattaou <yaattaou@student.1337.ma>       #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
-/*   Created: 2026/11/09 21:33:33 by yaattaou         #+#    #+#              */
-/*   Updated: 2026/11/09 21:33:33 by yaattaou        ###   ########.fr        */
+/*   Created: 2026/11/10 03:32:51 by yaattaou         #+#    #+#              */
+/*   Updated: 2026/11/10 03:36:24 by yaattaou        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	main(void)
+char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
-	printf("%s\n", ft_strtrim("aaaaabcdsgdsfaaaaa", "a"));
 }
