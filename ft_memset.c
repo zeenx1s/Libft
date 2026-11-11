@@ -6,7 +6,7 @@
 /*   By: yaattaou <yaattaou@student.1337.ma>       #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/11/03 06:23:56 by yaattaou         #+#    #+#              */
-/*   Updated: 2026/11/09 21:34:06 by yaattaou        ###   ########.fr        */
+/*   Updated: 2026/11/11 15:29:27 by yaattaou        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,12 +26,3 @@ void	*ft_memset(void *s, int c, size_t n)
 	}
 	return (s);
 }
-
-// int	main(void)
-// {
-// 	char	r[] = "hellooooooo";
-
-// 	ft_memset(r, 99, 3);
-// 	printf("%s\n", r);
-// 	return (0);
-// }

@@ -6,7 +6,7 @@
 /*   By: yaattaou <yaattaou@student.1337.ma>       #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/11/05 08:26:08 by yaattaou         #+#    #+#              */
-/*   Updated: 2026/11/09 21:33:56 by yaattaou        ###   ########.fr        */
+/*   Updated: 2026/11/11 14:39:53 by yaattaou        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,12 +36,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	}
 	return (src_l + dst_l);
 }
-
-// int	main(void)
-// {
-// 	char	u[] = "00000";
-// 	char	p[] = "12345";
-
-// 	ft_strlcat(p, u, 0);
-// 	printf("%s\n%s", u, p);
-// }

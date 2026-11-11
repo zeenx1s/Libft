@@ -6,7 +6,7 @@
 /*   By: yaattaou <yaattaou@student.1337.ma>       #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/11/07 10:35:30 by yaattaou         #+#    #+#              */
-/*   Updated: 2026/11/09 21:33:58 by yaattaou        ###   ########.fr        */
+/*   Updated: 2026/11/11 14:40:01 by yaattaou        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,12 +35,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	str[i] = '\0';
 	return (str);
 }
-
-// int main ()
-// {
-//     char ii[] = "hello";
-//     char bb[] = "world";
-//     char *res;
-//     res = ft_strjoin(ii,bb);
-//     printf("%s", res);
-// }
