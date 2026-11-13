@@ -6,7 +6,7 @@
 /*   By: yaattaou <yaattaou@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 05:33:07 by yaattaou          #+#    #+#             */
-/*   Updated: 2026/11/12 19:01:16 by yaattaou         ###   ########.fr       */
+/*   Updated: 2026/11/12 23:27:28 by yaattaou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,8 +57,8 @@ void			ft_putnbr_fd(int n, int fd);
 t_list			*ft_lstnew(void *content);
 void			ft_lstadd_front(t_list **lst, t_list *new);
 unsigned int	ft_lstsize(t_list *lst);
-t_list			*ft_lstlast(t_list *lst);
-size_t			ft_strlcpy(char *dst, const char *src, size_t size);
-size_t			ft_strlcat(char *dst, const char *src, size_t size);
+// t_list			*ft_lstlast(t_list *lst);
+size_t	ft_strlcpy(char *dst, const char *src, size_t size);
+size_t	ft_strlcat(char *dst, const char *src, size_t size);
 
 #endif
