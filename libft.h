@@ -6,7 +6,7 @@
 /*   By: yaattaou <yaattaou@student.1337.ma>       #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/11/03 05:33:07 by yaattaou         #+#    #+#              */
-/*   Updated: 2026/11/14 05:50:56 by yaattaou        ###   ########.fr        */
+/*   Updated: 2026/11/14 21:03:37 by yaattaou        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,8 +62,9 @@ void			ft_lstadd_back(t_list **lst, t_list *new);
 void			ft_lstdelone(t_list *lst, void (*del)(void *));
 void			ft_lstclear(t_list **lst, void (*del)(void *));
 void			ft_lstiter(t_list *lst, void (*f)(void *));
-t_list			*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 size_t			ft_strlcpy(char *dst, const char *src, size_t size);
 size_t			ft_strlcat(char *dst, const char *src, size_t size);
+t_list			*ft_lstmap(t_list *lst, void *(*f)(void *),
+					void (*del)(void *));
 
 #endif

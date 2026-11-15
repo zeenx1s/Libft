@@ -6,7 +6,7 @@
 /*   By: yaattaou <yaattaou@student.1337.ma>       #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/11/14 05:30:34 by yaattaou         #+#    #+#              */
-/*   Updated: 2026/11/14 05:39:18 by yaattaou        ###   ########.fr        */
+/*   Updated: 2026/11/14 21:19:12 by yaattaou        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,12 +18,12 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 
 	if (!del || !lst)
 		return ;
-	*tmp = *lst;
+	tmp = *lst;
 	while (*lst)
 	{
 		tmp = *lst;
 		*lst = (*lst)->next;
 		ft_lstdelone(tmp, del);
 	}
-	lst = NULL :
+	lst = NULL;
 }
